@@ -126,22 +126,22 @@
         <dependency>
             <groupId>ai.timefold.solver</groupId>
             <artifactId>timefold-solver-constraint-streams</artifactId>
-            <version>1.8.0</version>
+            <version>1.8.1</version>
         </dependency>
         <dependency>
             <groupId>ai.timefold.solver</groupId>
             <artifactId>timefold-solver-core-impl</artifactId>
-            <version>1.8.0</version>
+            <version>1.8.1</version>
         </dependency>
         <dependency>
             <groupId>ai.timefold.solver</groupId>
             <artifactId>timefold-solver-core</artifactId>
-            <version>1.8.0</version>
+            <version>1.9.0</version>
         </dependency>
         <dependency>
             <groupId>ai.timefold.solver</groupId>
             <artifactId>timefold-solver-jackson</artifactId>
-            <version>1.8.0</version>
+            <version>1.9.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

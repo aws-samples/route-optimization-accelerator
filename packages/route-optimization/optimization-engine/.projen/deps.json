@@ -96,12 +96,12 @@
     },
     {
       "name": "ai.timefold.solver/timefold-solver-constraint-streams",
-      "version": "1.9.0",
+      "version": "1.8.1",
       "type": "runtime"
     },
     {
       "name": "ai.timefold.solver/timefold-solver-core-impl",
-      "version": "1.9.0",
+      "version": "1.8.1",
       "type": "runtime"
     },
     {
