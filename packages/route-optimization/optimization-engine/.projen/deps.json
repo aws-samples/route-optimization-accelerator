@@ -96,22 +96,22 @@
     },
     {
       "name": "ai.timefold.solver/timefold-solver-constraint-streams",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "type": "runtime"
     },
     {
       "name": "ai.timefold.solver/timefold-solver-core-impl",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "type": "runtime"
     },
     {
       "name": "ai.timefold.solver/timefold-solver-core",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "type": "runtime"
     },
     {
       "name": "ai.timefold.solver/timefold-solver-jackson",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "type": "runtime"
     },
     {
