@@ -35,6 +35,30 @@ $ pnpm run build
 
 The application has a set of default settings that can be changed before deploying it into your AWS Account. Navigate to the [./src/utils//default-settings.ts](./src/utils/default-settings.ts) to apply the changes you'd like before deploying it.
 
+## Cross Platform Images
+
+This asset automatically build the [Optimization Engine's](../route-optimization/optimization-engine/README.md) docker image using `arm64` architecture so that can be executed on Graviton. If you aren't running your script from a `arm64` machine, you need to make sure that you can build cross-platform images.
+
+check the available `buildx` platforms:
+
+```sh
+docker buildx ls
+```
+
+in case `linux/arm64` is **NOT present**, you can install it ([if you're not using Docker desktop](https://docs.docker.com/build/building/multi-platform/#qemu-without-docker-desktop)):
+
+```sh
+docker run --privileged --rm tonistiigi/binfmt --install all
+```
+
+eventually, make sure that `linux/arm64` is present in docker buildx:
+
+```sh
+docker buildx ls
+```
+
+more information can be found in the Docker's [Multi-platform images documentation page](https://docs.docker.com/build/building/multi-platform/).
+
 ## Deploy
 
 to deploy the project, move into the `packages/infra-app` folder (where this README is located) and run the following commands:
