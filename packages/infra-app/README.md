@@ -28,7 +28,7 @@ aws ecr-public get-login-password --region us-east-1 --profile [profile] | docke
 then build the project:
 
 ```sh
-$ pnpm run build
+$ pnpm run build:all
 ```
 
 ## Configure

@@ -32,10 +32,6 @@ Route Optimization Accelerator provides a WebUI and APIs that helps you to manag
 This project uses a series of tools
 
 - [AWS CLI verison 2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [AWS PDK](https://github.com/aws/aws-pdk)
-  - [projen](https://github.com/projen/projen)
-  - [Smithy](https://smithy.io/2.0/index.html)
-  - [CDK](https://github.com/aws/aws-cdk)
 - Java
   - [Corretto 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
   - [Maven](https://maven.apache.org/)
@@ -48,6 +44,7 @@ To get started with Route Optimization Accelerator you can follow one of the lin
 
 - [Getting started](./packages/infra-app/README.md) - To deploy the accelerator in your AWS Account
 - [Detailed documentation](./docs/README.md) - To get more details about this project
+- [Developer guide](./docs/dev/README.md) - In case you'd like to extend this accelerator
 
 ---
 
@@ -58,4 +55,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the [LICENSE](./LICENSE) file.
-
