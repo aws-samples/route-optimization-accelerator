@@ -21,6 +21,26 @@ import sh from "@cloudscape-design/code-view/highlight/sh";
 import { CodeView } from "@cloudscape-design/code-view";
 import CopyToClipboard from "@cloudscape-design/components/copy-to-clipboard";
 
+const getFleetPosition = (apiBaseUrl: string) =>
+  `curl -H "Content-Type: application/json" \\
+-H "Authorization: API-Key [your-api-key]" \\
+-X GET ${apiBaseUrl}fleet/[fleet-member-id]/position`;
+
+const updateFleetPosition = (apiBaseUrl: string) =>
+  `curl -H "Content-Type: application/json" \\
+-H "Authorization: API-Key [your-api-key]" \\
+-X PUT ${apiBaseUrl}fleet/[fleet-member-id]/position \\
+-d @- << EOF
+{
+  "data": {
+    "position": {
+      "latitude": 47.615892381015875,
+      "longitude": -122.33824533863171
+    }
+  }
+}
+EOF`;
+
 const listOptimizations = (apiBaseUrl: string) =>
   `curl -H "Content-Type: application/json" \\
 -H "Authorization: API-Key [your-api-key]" \\
@@ -140,6 +160,42 @@ const ExternalAPIUsage = () => {
             Change <strong>[your-api-key]</strong> to match one of your existing
             External API key
           </Alert>
+
+          <Box variant="strong">
+            Invoke the API to get a vehicle's current position (remember to
+            change <em>[fleet-member-id]</em> with the ID of your vehicle)
+          </Box>
+          <CodeView
+            content={getFleetPosition(context?.apiUrl!)}
+            highlight={sh}
+            lineNumbers
+            actions={
+              <CopyToClipboard
+                copyButtonAriaLabel="Copy code"
+                copyErrorText="Code failed to copy"
+                copySuccessText="Code copied"
+                textToCopy={getFleetPosition(context?.apiUrl!)}
+              />
+            }
+          />
+
+          <Box variant="strong">
+            Invoke the API to update a vehicle's position (remember to change{" "}
+            <em>[fleet-member-id]</em> with the ID of your vehicle)
+          </Box>
+          <CodeView
+            content={updateFleetPosition(context?.apiUrl!)}
+            highlight={sh}
+            lineNumbers
+            actions={
+              <CopyToClipboard
+                copyButtonAriaLabel="Copy code"
+                copyErrorText="Code failed to copy"
+                copySuccessText="Code copied"
+                textToCopy={updateFleetPosition(context?.apiUrl!)}
+              />
+            }
+          />
 
           <Box variant="strong">
             Invoke the API to get the current list of route-optimizations
