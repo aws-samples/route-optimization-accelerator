@@ -114,7 +114,6 @@ const AssignementOrderTable: React.FC<OptimizationOrderDetailProps> = ({
               e.serviceWindow ? (
                 <DateTimeLabel
                   timestamp={new Date(e.serviceWindow.from).getTime()}
-                  timeZone="UTC"
                   mode={DateTimeLabelMode.Custom}
                   customFormat={DateFormats.default}
                 />
@@ -129,7 +128,6 @@ const AssignementOrderTable: React.FC<OptimizationOrderDetailProps> = ({
               e.serviceWindow ? (
                 <DateTimeLabel
                   timestamp={new Date(e.serviceWindow.to).getTime()}
-                  timeZone="UTC"
                   mode={DateTimeLabelMode.Custom}
                   customFormat={DateFormats.default}
                 />
@@ -143,6 +141,7 @@ const AssignementOrderTable: React.FC<OptimizationOrderDetailProps> = ({
             cell: (e) => (
               <DateTimeLabel
                 timestamp={new Date(e.arrivalTime!).getTime()}
+                timeZone="UTC"
                 mode={DateTimeLabelMode.Custom}
                 customFormat={DateFormats.default}
               />
