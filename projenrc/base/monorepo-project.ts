@@ -129,7 +129,7 @@ export class MonorepoProject extends monorepo.MonorepoTsProject {
     );
     this.gitignore.include("/.vscode/*.code-snippets");
 
-    // add local `.npmrc` to automatically avoid build hangs if npx is promping to install a package
+    // add local `.npmrc` to automatically avoid build hangs if npx is prompting to install a package
     this.npmrc.addConfig("yes", "true");
 
     // this.package.addEngine("node", ">=18");
