@@ -90,6 +90,7 @@ export class APIProjectContainer extends ProjectContainer {
             defaultReleaseBranch:
               COMMON_TS_PROJECT_OPTIONS.defaultReleaseBranch,
             name: `${this.packageNamespace}/web-api-service-typescript-runtime`,
+            peerDeps: [...COMMON_CDK_DEPS],
             devDeps: ["@types/node@^20"],
           },
         },

@@ -52,7 +52,7 @@
     "@cloudscape-design/components": "3.0.515",
     "@cloudscape-design/global-styles": "1.0.22",
     "@mapbox/polyline": "1.2.1",
-    "@route-optimization-accelerator/web-api-service-typescript-react-query-hooks": "0.0.0",
+    "@route-optimization-accelerator/web-api-service-typescript-react-query-hooks": "^0.0.0",
     "@tanstack/react-query": "4.36.1",
     "@turf/turf": "6.5.0",
     "ace-builds": "1.32.5",

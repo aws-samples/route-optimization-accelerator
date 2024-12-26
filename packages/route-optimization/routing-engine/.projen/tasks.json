@@ -116,13 +116,13 @@
       },
       "steps": [
         {
-          "exec": "pnpm dlx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/jest,eslint-import-resolver-typescript,eslint-plugin-import,jest,ts-jest,typescript,@route-optimization-accelerator/infra-common,aws-cdk-lib,cdk-iam-actions,cdk-nag,constructs"
+          "exec": "pnpm dlx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/jest,eslint-import-resolver-typescript,eslint-plugin-import,jest,ts-jest,typescript,@route-optimization-accelerator/infra-common,aws-cdk-lib,cdk-iam-actions,cdk-nag,constructs,esbuild"
         },
         {
           "exec": "pnpm i --no-frozen-lockfile"
         },
         {
-          "exec": "pnpm update @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser constructs eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit projen ts-jest typescript @route-optimization-accelerator/infra-common aws-cdk-lib cdk-iam-actions cdk-nag"
+          "exec": "pnpm update @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser constructs eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit projen ts-jest typescript @route-optimization-accelerator/infra-common aws-cdk-lib cdk-iam-actions cdk-nag esbuild"
         },
         {
           "exec": "npx projen"

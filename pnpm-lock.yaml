@@ -15,19 +15,19 @@ importers:
     dependencies:
       '@aws-cdk/aws-cognito-identitypool-alpha':
         specifier: latest
-        version: 2.133.0-alpha.0(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.133.0-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       '@aws/pdk':
         specifier: 0.23.10
-        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0)(aws-cdk-lib@2.133.0)(cdk-nag@2.28.54)(constructs@10.3.0)(projen@0.79.27)
+        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27)
       aws-cdk-lib:
-        specifier: 2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: 10.3.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
       eslint-plugin-header:
         specifier: 3.1.1
         version: 3.1.1(eslint@8.57.0)
@@ -36,7 +36,7 @@ importers:
         version: 5.0.0
       projen:
         specifier: 0.79.27
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
     devDependencies:
       '@commitlint/cli':
         specifier: 18.6.1
@@ -151,7 +151,7 @@ importers:
         version: 3.523.0
       '@aws/pdk':
         specifier: 0.23.10
-        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0)(aws-cdk-lib@2.133.0)(cdk-nag@2.28.54)(constructs@10.3.0)(projen@0.79.27)
+        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27)
       '@mapbox/polyline':
         specifier: 1.2.1
         version: 1.2.1
@@ -162,29 +162,32 @@ importers:
         specifier: 0.0.0
         version: link:../../route-optimization/optimization-infra
       '@route-optimization-accelerator/web-api-service-typescript-infra':
-        specifier: 0.0.0
+        specifier: ^0.0.0
         version: link:../web-api-service/generated/infrastructure/typescript
       '@route-optimization-accelerator/web-api-service-typescript-runtime':
-        specifier: 0.0.0
+        specifier: ^0.0.0
         version: link:../web-api-service/generated/runtime/typescript
       '@turf/turf':
         specifier: 6.5.0
         version: 6.5.0
       aws-cdk-lib:
-        specifier: 2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-iam-actions:
         specifier: 1.0.0
         version: 1.0.0
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: 10.3.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
       dayjs:
         specifier: 1.11.10
         version: 1.11.10
+      esbuild:
+        specifier: 0.24.2
+        version: 0.24.2
       jsonwebtoken:
         specifier: 9.0.2
         version: 9.0.2
@@ -239,10 +242,10 @@ importers:
         version: 15.0.0
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       ts-jest:
         specifier: 29.1.2
-        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2)
+        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.24.2)(jest@29.7.0)(typescript@5.4.2)
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
@@ -255,28 +258,28 @@ importers:
     devDependencies:
       '@aws/pdk':
         specifier: 0.23.10
-        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0)(aws-cdk-lib@2.133.0)(cdk-nag@2.28.54)(constructs@10.3.0)(projen@0.79.27)
+        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27)
       '@types/aws-lambda':
-        specifier: 8.10.134
+        specifier: ^8.10.134
         version: 8.10.134
       '@types/node':
         specifier: ^18
         version: 18.19.21
       aws-cdk-lib:
-        specifier: 2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: 10.3.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       typescript:
-        specifier: ^5.4.2
-        version: 5.4.2
+        specifier: ^5.7.2
+        version: 5.7.2
 
   packages/api/web-api-service/generated/libraries/typescript-react-query-hooks:
     dependencies:
@@ -288,57 +291,69 @@ importers:
         specifier: ^18
         version: 18.19.21
       '@types/react':
-        specifier: 18.2.53
+        specifier: ^18.2.53
         version: 18.2.53
       constructs:
         specifier: ^10.0.0
-        version: 10.3.0
+        version: 10.4.2
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       react:
         specifier: 18.2.0
         version: 18.2.0
       typescript:
-        specifier: ^5.4.2
-        version: 5.4.2
+        specifier: ^5.7.2
+        version: 5.7.2
 
   packages/api/web-api-service/generated/runtime/typescript:
     dependencies:
       '@aws-lambda-powertools/logger':
-        specifier: 1.18.0
+        specifier: ^1.18.0
         version: 1.18.0
       '@aws-lambda-powertools/metrics':
-        specifier: 1.18.0
+        specifier: ^1.18.0
         version: 1.18.0
       '@aws-lambda-powertools/tracer':
-        specifier: 1.18.0
+        specifier: ^1.18.0
         version: 1.18.0
       '@types/aws-lambda':
-        specifier: 8.10.134
+        specifier: ^8.10.134
         version: 8.10.134
     devDependencies:
       '@types/node':
         specifier: ^18
         version: 18.19.21
+      aws-cdk-lib:
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
+      cdk-iam-actions:
+        specifier: 1.0.0
+        version: 1.0.0
+      cdk-nag:
+        specifier: 2.28.54
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: ^10.0.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
+      esbuild:
+        specifier: 0.24.2
+        version: 0.24.2
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       typescript:
-        specifier: ^5.4.2
-        version: 5.4.2
+        specifier: ^5.7.2
+        version: 5.7.2
 
   packages/infra-app:
     dependencies:
       '@aws-cdk/aws-cognito-identitypool-alpha':
-        specifier: ^2.133.0-alpha.0
-        version: 2.133.0-alpha.0(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        specifier: 2.173.2-alpha.0
+        version: 2.173.2-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       '@aws/pdk':
         specifier: 0.23.10
-        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0)(aws-cdk-lib@2.133.0)(cdk-nag@2.28.54)(constructs@10.3.0)(projen@0.79.27)
+        version: 0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.173.2-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27)
       '@route-optimization-accelerator/infra-common':
         specifier: 0.0.0
         version: link:../infra-common
@@ -355,23 +370,26 @@ importers:
         specifier: 0.0.0
         version: link:../web-ui
       aws-cdk-lib:
-        specifier: ^2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: ^2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-iam-actions:
         specifier: 1.0.0
         version: 1.0.0
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       config:
         specifier: 3.3.11
         version: 3.3.11
       constructs:
-        specifier: ^10.0.5
-        version: 10.3.0
+        specifier: ^10.4.2
+        version: 10.4.2
       dotenv:
         specifier: 10.0.0
         version: 10.0.0
+      esbuild:
+        specifier: 0.24.2
+        version: 0.24.2
       find-up:
         specifier: ^5.0.0
         version: 5.0.0
@@ -398,11 +416,8 @@ importers:
         specifier: ^6
         version: 6.21.0(eslint@8.57.0)(typescript@5.4.2)
       aws-cdk:
-        specifier: ^2.133.0
-        version: 2.133.0
-      esbuild:
-        specifier: 0.19.12
-        version: 0.19.12
+        specifier: ^2.173.2
+        version: 2.173.2
       eslint:
         specifier: ^8
         version: 8.57.0
@@ -429,10 +444,10 @@ importers:
         version: 3.2.5
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       ts-jest:
         specifier: 29.1.2
-        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2)
+        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.24.2)(jest@29.7.0)(typescript@5.4.2)
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@18.19.21)(typescript@5.4.2)
@@ -443,20 +458,20 @@ importers:
   packages/infra-common:
     dependencies:
       aws-cdk-lib:
-        specifier: 2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-iam-actions:
         specifier: 1.0.0
         version: 1.0.0
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: 10.3.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
       esbuild:
-        specifier: 0.19.12
-        version: 0.19.12
+        specifier: 0.24.2
+        version: 0.24.2
     devDependencies:
       '@types/jest':
         specifier: 29.5.12
@@ -487,10 +502,10 @@ importers:
         version: 15.0.0
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       ts-jest:
         specifier: 29.1.2
-        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2)
+        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.24.2)(jest@29.7.0)(typescript@5.4.2)
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
@@ -504,20 +519,23 @@ importers:
         specifier: 0.0.0
         version: link:../../infra-common
       aws-cdk-lib:
-        specifier: 2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-iam-actions:
         specifier: 1.0.0
         version: 1.0.0
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: 10.3.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
       dayjs:
         specifier: 1.11.10
         version: 1.11.10
+      esbuild:
+        specifier: 0.24.2
+        version: 0.24.2
       uuid:
         specifier: 9.0.1
         version: 9.0.1
@@ -557,10 +575,10 @@ importers:
         version: 15.0.0
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       ts-jest:
         specifier: 29.1.2
-        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2)
+        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.24.2)(jest@29.7.0)(typescript@5.4.2)
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
@@ -571,17 +589,20 @@ importers:
         specifier: 0.0.0
         version: link:../../infra-common
       aws-cdk-lib:
-        specifier: 2.133.0
-        version: 2.133.0(constructs@10.3.0)
+        specifier: 2.173.2
+        version: 2.173.2(constructs@10.4.2)
       cdk-iam-actions:
         specifier: 1.0.0
         version: 1.0.0
       cdk-nag:
         specifier: 2.28.54
-        version: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
+        version: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
       constructs:
-        specifier: 10.3.0
-        version: 10.3.0
+        specifier: 10.4.2
+        version: 10.4.2
+      esbuild:
+        specifier: 0.24.2
+        version: 0.24.2
     devDependencies:
       '@types/jest':
         specifier: 29.5.12
@@ -612,10 +633,10 @@ importers:
         version: 15.0.0
       projen:
         specifier: ^0.79.24
-        version: 0.79.27(constructs@10.3.0)
+        version: 0.79.27(constructs@10.4.2)
       ts-jest:
         specifier: 29.1.2
-        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2)
+        version: 29.1.2(@babel/core@7.24.0)(esbuild@0.24.2)(jest@29.7.0)(typescript@5.4.2)
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
@@ -662,7 +683,7 @@ importers:
         specifier: 1.2.1
         version: 1.2.1
       '@route-optimization-accelerator/web-api-service-typescript-react-query-hooks':
-        specifier: 0.0.0
+        specifier: ^0.0.0
         version: link:../api/web-api-service/generated/libraries/typescript-react-query-hooks
       '@tanstack/react-query':
         specifier: 4.36.1
@@ -823,35 +844,52 @@ packages:
       - react-native
     dev: false
 
-  /@aws-cdk/asset-awscli-v1@2.2.202:
-    resolution: {integrity: sha512-JqlF0D4+EVugnG5dAsNZMqhu3HW7ehOXm5SDMxMbXNDMdsF0pxtQKNHRl52z1U9igsHmaFpUgSGjbhAJ+0JONg==}
+  /@aws-cdk/asset-awscli-v1@2.2.216:
+    resolution: {integrity: sha512-ZOMSDRZNTshIGUsq7FWxzlC/rb05rHbb7eX7v9L5+JheMWxnjfP9Bfjisl45jeYtZKYbDM6IgE4GuX5LZ15Ptg==}
 
-  /@aws-cdk/asset-kubectl-v20@2.1.2:
-    resolution: {integrity: sha512-3M2tELJOxQv0apCIiuKQ4pAbncz9GuLwnKFqxifWfe77wuMxyTRPmxssYHs42ePqzap1LT6GDcPygGs+hHstLg==}
+  /@aws-cdk/asset-kubectl-v20@2.1.3:
+    resolution: {integrity: sha512-cDG1w3ieM6eOT9mTefRuTypk95+oyD7P5X/wRltwmYxU7nZc3+076YEVS6vrjDKr3ADYbfn0lDKpfB1FBtO9CQ==}
 
-  /@aws-cdk/asset-node-proxy-agent-v6@2.0.1:
-    resolution: {integrity: sha512-DDt4SLdLOwWCjGtltH4VCST7hpOI5DzieuhGZsBpZ+AgJdSI2GCjklCXm0GCTwJG/SolkL5dtQXyUKgg9luBDg==}
+  /@aws-cdk/asset-node-proxy-agent-v6@2.1.0:
+    resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
 
-  /@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0(aws-cdk-lib@2.133.0)(constructs@10.3.0):
+  /@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2):
     resolution: {integrity: sha512-a1SdwZE1vdzkWjmULD9kt16nUHgg6Iz2WtHD8XZYw8nW4IKweIX0IgvO+Ie8JvGOfKrdZjTBpcwWgNTkA1aG9Q==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       aws-cdk-lib: ^2.104.0
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.133.0(constructs@10.3.0)
-      constructs: 10.3.0
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      constructs: 10.4.2
 
-  /@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0(aws-cdk-lib@2.133.0)(constructs@10.3.0):
+  /@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2):
     resolution: {integrity: sha512-TKwF3V1E6Fn5eqnpRBCOLUmr4NyWN0ncJWJK+OaUcXGg90zMVyXzsLEQ8wsmrzgSNCm+Wf7bcGjDK+7h+/ZVbQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       aws-cdk-lib: ^2.133.0
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.133.0(constructs@10.3.0)
-      constructs: 10.3.0
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      constructs: 10.4.2
     dev: false
+
+  /@aws-cdk/aws-cognito-identitypool-alpha@2.173.2-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2):
+    resolution: {integrity: sha512-WEtVQBFtSbVnzQq9J4nt2wCVhqNHakzbwm+QoM/daL2WRRYTXEPzEzqBn3ECLK7k/uXQL9agkudktWPLIxDsbQ==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      aws-cdk-lib: ^2.173.2
+      constructs: ^10.0.0
+    dependencies:
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      constructs: 10.4.2
+    dev: false
+
+  /@aws-cdk/cloud-assembly-schema@38.0.1:
+    resolution: {integrity: sha512-KvPe+NMWAulfNVwY7jenFhzhuLhLqJ/OPy5jx7wUstbjnYnjRVLpUHPU3yCjXFE0J8cuJVdx95BJ4rOs66Pi9w==}
+    bundledDependencies:
+      - jsonschema
+      - semver
 
   /@aws-crypto/crc32@3.0.0:
     resolution: {integrity: sha512-IzSgsrxUcsrejQbPVilIKy16kAT52EwB6zSaI+M3xxIhKh5+aldEyvI+z6erM7TCLB2BJsFrtHjp6/4/sr+3dA==}
@@ -961,10 +999,12 @@ packages:
 
   /@aws-lambda-powertools/commons@1.18.0:
     resolution: {integrity: sha512-oSnST8Wr3WZcT/FgCUzZYUFB+qYHWMAKS0GhWbUqHZMr7I5F75jq/JbeUUF16ShOMGgnEzs5oJjizBYVTI6Oww==}
+    deprecated: 'Version 1.x has reached End-of-Life, please upgrade to 2.x, more info here: https://s12d.com/upgrade-v2'
     dev: false
 
   /@aws-lambda-powertools/logger@1.18.0:
     resolution: {integrity: sha512-oB4FPMYNPjME6xsDfm7rxRBHwaH0dQl+bmO9cDbRfiCsZfQxKtTiSvROGt6AvRo+5rhPZyCdn5eAHqCJ4f5tVQ==}
+    deprecated: 'Version 1.x has reached End-of-Life, please upgrade to 2.x, more info here: https://s12d.com/upgrade-v2'
     peerDependencies:
       '@middy/core': '>=3.x'
     peerDependenciesMeta:
@@ -977,6 +1017,7 @@ packages:
 
   /@aws-lambda-powertools/metrics@1.18.0:
     resolution: {integrity: sha512-nlTJxJeVZlUkviHg/d8+YrgDLy7qBcGvglln3FYpNcu0AISnuqssc7PVky0Bh9Rcub4rD/cGCY0N20qy/WC24g==}
+    deprecated: 'Version 1.x has reached End-of-Life, please upgrade to 2.x, more info here: https://s12d.com/upgrade-v2'
     peerDependencies:
       '@middy/core': '>=3.x'
     peerDependenciesMeta:
@@ -988,6 +1029,7 @@ packages:
 
   /@aws-lambda-powertools/tracer@1.18.0:
     resolution: {integrity: sha512-26z3iKaUWUybxFsRsJZXnPaBf0HlMyZHbLrQvMXJ+avjh3i3ZOiHXnnmQNA4gny02lY2XQddEzpw0M62PYhegQ==}
+    deprecated: 'Version 1.x has reached End-of-Life, please upgrade to 2.x, more info here: https://s12d.com/upgrade-v2'
     peerDependencies:
       '@middy/core': '>=3.x'
     peerDependenciesMeta:
@@ -2532,7 +2574,7 @@ packages:
       - react-native
     dev: false
 
-  /@aws/pdk@0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0)(aws-cdk-lib@2.133.0)(cdk-nag@2.28.54)(constructs@10.3.0)(projen@0.79.27):
+  /@aws/pdk@0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.104.0-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27):
     resolution: {integrity: sha512-nlG2vuORoBSvGl+Qq0L78WZr5QoViInFBPtacs+iIaZnGgA/JLjHxO4BlILcJwU5O+fvrN2vXIabafwcldjlMA==}
     hasBin: true
     peerDependencies:
@@ -2542,11 +2584,11 @@ packages:
       constructs: ^10.3.0
       projen: ^0.79.24
     dependencies:
-      '@aws-cdk/aws-cognito-identitypool-alpha': 2.104.0-alpha.0(aws-cdk-lib@2.133.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.133.0(constructs@10.3.0)
-      cdk-nag: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
-      constructs: 10.3.0
-      projen: 0.79.27(constructs@10.3.0)
+      '@aws-cdk/aws-cognito-identitypool-alpha': 2.104.0-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2)
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      cdk-nag: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
+      constructs: 10.4.2
+      projen: 0.79.27(constructs@10.4.2)
     bundledDependencies:
       - '@pnpm/reviewing.dependencies-hierarchy'
       - chalk
@@ -2578,7 +2620,7 @@ packages:
       - ts-node
       - word-wrap
 
-  /@aws/pdk@0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0)(aws-cdk-lib@2.133.0)(cdk-nag@2.28.54)(constructs@10.3.0)(projen@0.79.27):
+  /@aws/pdk@0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.133.0-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27):
     resolution: {integrity: sha512-nlG2vuORoBSvGl+Qq0L78WZr5QoViInFBPtacs+iIaZnGgA/JLjHxO4BlILcJwU5O+fvrN2vXIabafwcldjlMA==}
     hasBin: true
     peerDependencies:
@@ -2588,11 +2630,58 @@ packages:
       constructs: ^10.3.0
       projen: ^0.79.24
     dependencies:
-      '@aws-cdk/aws-cognito-identitypool-alpha': 2.133.0-alpha.0(aws-cdk-lib@2.133.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.133.0(constructs@10.3.0)
-      cdk-nag: 2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0)
-      constructs: 10.3.0
-      projen: 0.79.27(constructs@10.3.0)
+      '@aws-cdk/aws-cognito-identitypool-alpha': 2.133.0-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2)
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      cdk-nag: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
+      constructs: 10.4.2
+      projen: 0.79.27(constructs@10.4.2)
+    dev: false
+    bundledDependencies:
+      - '@pnpm/reviewing.dependencies-hierarchy'
+      - chalk
+      - execa
+      - find-up
+      - findup
+      - fs-extra
+      - he
+      - lodash
+      - lodash.clonedeep
+      - lodash.isempty
+      - lodash.memoize
+      - lodash.merge
+      - lodash.omit
+      - lodash.startcase
+      - lodash.uniq
+      - lodash.uniqby
+      - lodash.words
+      - log4js
+      - mustache
+      - openapi-types
+      - read-pkg-up
+      - semver
+      - shorthash2
+      - svgson
+      - to-px
+      - traverse
+      - ts-graphviz
+      - ts-node
+      - word-wrap
+
+  /@aws/pdk@0.23.10(@aws-cdk/aws-cognito-identitypool-alpha@2.173.2-alpha.0)(aws-cdk-lib@2.173.2)(cdk-nag@2.28.54)(constructs@10.4.2)(projen@0.79.27):
+    resolution: {integrity: sha512-nlG2vuORoBSvGl+Qq0L78WZr5QoViInFBPtacs+iIaZnGgA/JLjHxO4BlILcJwU5O+fvrN2vXIabafwcldjlMA==}
+    hasBin: true
+    peerDependencies:
+      '@aws-cdk/aws-cognito-identitypool-alpha': ^2.104.0-alpha.0
+      aws-cdk-lib: ^2.104.0
+      cdk-nag: ^2.28.2
+      constructs: ^10.3.0
+      projen: ^0.79.24
+    dependencies:
+      '@aws-cdk/aws-cognito-identitypool-alpha': 2.173.2-alpha.0(aws-cdk-lib@2.173.2)(constructs@10.4.2)
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      cdk-nag: 2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2)
+      constructs: 10.4.2
+      projen: 0.79.27(constructs@10.4.2)
     dev: false
     bundledDependencies:
       - '@pnpm/reviewing.dependencies-hierarchy'
@@ -4704,185 +4793,201 @@ packages:
       fast-check: 3.15.0
     dev: true
 
-  /@esbuild/aix-ppc64@0.19.12:
-    resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
-    engines: {node: '>=12'}
+  /@esbuild/aix-ppc64@0.24.2:
+    resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==}
+    engines: {node: '>=18'}
     cpu: [ppc64]
     os: [aix]
     requiresBuild: true
     optional: true
 
-  /@esbuild/android-arm64@0.19.12:
-    resolution: {integrity: sha512-P0UVNGIienjZv3f5zq0DP3Nt2IE/3plFzuaS96vihvD0Hd6H/q4WXUGpCxD/E8YrSXfNyRPbpTq+T8ZQioSuPA==}
-    engines: {node: '>=12'}
+  /@esbuild/android-arm64@0.24.2:
+    resolution: {integrity: sha512-cNLgeqCqV8WxfcTIOeL4OAtSmL8JjcN6m09XIgro1Wi7cF4t/THaWEa7eL5CMoMBdjoHOTh/vwTO/o2TRXIyzg==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [android]
     requiresBuild: true
     optional: true
 
-  /@esbuild/android-arm@0.19.12:
-    resolution: {integrity: sha512-qg/Lj1mu3CdQlDEEiWrlC4eaPZ1KztwGJ9B6J+/6G+/4ewxJg7gqj8eVYWvao1bXrqGiW2rsBZFSX3q2lcW05w==}
-    engines: {node: '>=12'}
+  /@esbuild/android-arm@0.24.2:
+    resolution: {integrity: sha512-tmwl4hJkCfNHwFB3nBa8z1Uy3ypZpxqxfTQOcHX+xRByyYgunVbZ9MzUUfb0RxaHIMnbHagwAxuTL+tnNM+1/Q==}
+    engines: {node: '>=18'}
     cpu: [arm]
     os: [android]
     requiresBuild: true
     optional: true
 
-  /@esbuild/android-x64@0.19.12:
-    resolution: {integrity: sha512-3k7ZoUW6Q6YqhdhIaq/WZ7HwBpnFBlW905Fa4s4qWJyiNOgT1dOqDiVAQFwBH7gBRZr17gLrlFCRzF6jFh7Kew==}
-    engines: {node: '>=12'}
+  /@esbuild/android-x64@0.24.2:
+    resolution: {integrity: sha512-B6Q0YQDqMx9D7rvIcsXfmJfvUYLoP722bgfBlO5cGvNVb5V/+Y7nhBE3mHV9OpxBf4eAS2S68KZztiPaWq4XYw==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [android]
     requiresBuild: true
     optional: true
 
-  /@esbuild/darwin-arm64@0.19.12:
-    resolution: {integrity: sha512-B6IeSgZgtEzGC42jsI+YYu9Z3HKRxp8ZT3cqhvliEHovq8HSX2YX8lNocDn79gCKJXOSaEot9MVYky7AKjCs8g==}
-    engines: {node: '>=12'}
+  /@esbuild/darwin-arm64@0.24.2:
+    resolution: {integrity: sha512-kj3AnYWc+CekmZnS5IPu9D+HWtUI49hbnyqk0FLEJDbzCIQt7hg7ucF1SQAilhtYpIujfaHr6O0UHlzzSPdOeA==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     optional: true
 
-  /@esbuild/darwin-x64@0.19.12:
-    resolution: {integrity: sha512-hKoVkKzFiToTgn+41qGhsUJXFlIjxI/jSYeZf3ugemDYZldIXIxhvwN6erJGlX4t5h417iFuheZ7l+YVn05N3A==}
-    engines: {node: '>=12'}
+  /@esbuild/darwin-x64@0.24.2:
+    resolution: {integrity: sha512-WeSrmwwHaPkNR5H3yYfowhZcbriGqooyu3zI/3GGpF8AyUdsrrP0X6KumITGA9WOyiJavnGZUwPGvxvwfWPHIA==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     optional: true
 
-  /@esbuild/freebsd-arm64@0.19.12:
-    resolution: {integrity: sha512-4aRvFIXmwAcDBw9AueDQ2YnGmz5L6obe5kmPT8Vd+/+x/JMVKCgdcRwH6APrbpNXsPz+K653Qg8HB/oXvXVukA==}
-    engines: {node: '>=12'}
+  /@esbuild/freebsd-arm64@0.24.2:
+    resolution: {integrity: sha512-UN8HXjtJ0k/Mj6a9+5u6+2eZ2ERD7Edt1Q9IZiB5UZAIdPnVKDoG7mdTVGhHJIeEml60JteamR3qhsr1r8gXvg==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
     optional: true
 
-  /@esbuild/freebsd-x64@0.19.12:
-    resolution: {integrity: sha512-EYoXZ4d8xtBoVN7CEwWY2IN4ho76xjYXqSXMNccFSx2lgqOG/1TBPW0yPx1bJZk94qu3tX0fycJeeQsKovA8gg==}
-    engines: {node: '>=12'}
+  /@esbuild/freebsd-x64@0.24.2:
+    resolution: {integrity: sha512-TvW7wE/89PYW+IevEJXZ5sF6gJRDY/14hyIGFXdIucxCsbRmLUcjseQu1SyTko+2idmCw94TgyaEZi9HUSOe3Q==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-arm64@0.19.12:
-    resolution: {integrity: sha512-EoTjyYyLuVPfdPLsGVVVC8a0p1BFFvtpQDB/YLEhaXyf/5bczaGeN15QkR+O4S5LeJ92Tqotve7i1jn35qwvdA==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-arm64@0.24.2:
+    resolution: {integrity: sha512-7HnAD6074BW43YvvUmE/35Id9/NB7BeX5EoNkK9obndmZBUk8xmJJeU7DwmUeN7tkysslb2eSl6CTrYz6oEMQg==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-arm@0.19.12:
-    resolution: {integrity: sha512-J5jPms//KhSNv+LO1S1TX1UWp1ucM6N6XuL6ITdKWElCu8wXP72l9MM0zDTzzeikVyqFE6U8YAV9/tFyj0ti+w==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-arm@0.24.2:
+    resolution: {integrity: sha512-n0WRM/gWIdU29J57hJyUdIsk0WarGd6To0s+Y+LwvlC55wt+GT/OgkwoXCXvIue1i1sSNWblHEig00GBWiJgfA==}
+    engines: {node: '>=18'}
     cpu: [arm]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-ia32@0.19.12:
-    resolution: {integrity: sha512-Thsa42rrP1+UIGaWz47uydHSBOgTUnwBwNq59khgIwktK6x60Hivfbux9iNR0eHCHzOLjLMLfUMLCypBkZXMHA==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-ia32@0.24.2:
+    resolution: {integrity: sha512-sfv0tGPQhcZOgTKO3oBE9xpHuUqguHvSo4jl+wjnKwFpapx+vUDcawbwPNuBIAYdRAvIDBfZVvXprIj3HA+Ugw==}
+    engines: {node: '>=18'}
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-loong64@0.19.12:
-    resolution: {integrity: sha512-LiXdXA0s3IqRRjm6rV6XaWATScKAXjI4R4LoDlvO7+yQqFdlr1Bax62sRwkVvRIrwXxvtYEHHI4dm50jAXkuAA==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-loong64@0.24.2:
+    resolution: {integrity: sha512-CN9AZr8kEndGooS35ntToZLTQLHEjtVB5n7dl8ZcTZMonJ7CCfStrYhrzF97eAecqVbVJ7APOEe18RPI4KLhwQ==}
+    engines: {node: '>=18'}
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-mips64el@0.19.12:
-    resolution: {integrity: sha512-fEnAuj5VGTanfJ07ff0gOA6IPsvrVHLVb6Lyd1g2/ed67oU1eFzL0r9WL7ZzscD+/N6i3dWumGE1Un4f7Amf+w==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-mips64el@0.24.2:
+    resolution: {integrity: sha512-iMkk7qr/wl3exJATwkISxI7kTcmHKE+BlymIAbHO8xanq/TjHaaVThFF6ipWzPHryoFsesNQJPE/3wFJw4+huw==}
+    engines: {node: '>=18'}
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-ppc64@0.19.12:
-    resolution: {integrity: sha512-nYJA2/QPimDQOh1rKWedNOe3Gfc8PabU7HT3iXWtNUbRzXS9+vgB0Fjaqr//XNbd82mCxHzik2qotuI89cfixg==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-ppc64@0.24.2:
+    resolution: {integrity: sha512-shsVrgCZ57Vr2L8mm39kO5PPIb+843FStGt7sGGoqiiWYconSxwTiuswC1VJZLCjNiMLAMh34jg4VSEQb+iEbw==}
+    engines: {node: '>=18'}
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-riscv64@0.19.12:
-    resolution: {integrity: sha512-2MueBrlPQCw5dVJJpQdUYgeqIzDQgw3QtiAHUC4RBz9FXPrskyyU3VI1hw7C0BSKB9OduwSJ79FTCqtGMWqJHg==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-riscv64@0.24.2:
+    resolution: {integrity: sha512-4eSFWnU9Hhd68fW16GD0TINewo1L6dRrB+oLNNbYyMUAeOD2yCK5KXGK1GH4qD/kT+bTEXjsyTCiJGHPZ3eM9Q==}
+    engines: {node: '>=18'}
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-s390x@0.19.12:
-    resolution: {integrity: sha512-+Pil1Nv3Umes4m3AZKqA2anfhJiVmNCYkPchwFJNEJN5QxmTs1uzyy4TvmDrCRNT2ApwSari7ZIgrPeUx4UZDg==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-s390x@0.24.2:
+    resolution: {integrity: sha512-S0Bh0A53b0YHL2XEXC20bHLuGMOhFDO6GN4b3YjRLK//Ep3ql3erpNcPlEFed93hsQAjAQDNsvcK+hV90FubSw==}
+    engines: {node: '>=18'}
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/linux-x64@0.19.12:
-    resolution: {integrity: sha512-B71g1QpxfwBvNrfyJdVDexenDIt1CiDN1TIXLbhOw0KhJzE78KIFGX6OJ9MrtC0oOqMWf+0xop4qEU8JrJTwCg==}
-    engines: {node: '>=12'}
+  /@esbuild/linux-x64@0.24.2:
+    resolution: {integrity: sha512-8Qi4nQcCTbLnK9WoMjdC9NiTG6/E38RNICU6sUNqK0QFxCYgoARqVqxdFmWkdonVsvGqWhmm7MO0jyTqLqwj0Q==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     optional: true
 
-  /@esbuild/netbsd-x64@0.19.12:
-    resolution: {integrity: sha512-3ltjQ7n1owJgFbuC61Oj++XhtzmymoCihNFgT84UAmJnxJfm4sYCiSLTXZtE00VWYpPMYc+ZQmB6xbSdVh0JWA==}
-    engines: {node: '>=12'}
+  /@esbuild/netbsd-arm64@0.24.2:
+    resolution: {integrity: sha512-wuLK/VztRRpMt9zyHSazyCVdCXlpHkKm34WUyinD2lzK07FAHTq0KQvZZlXikNWkDGoT6x3TD51jKQ7gMVpopw==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [netbsd]
+    requiresBuild: true
+    optional: true
+
+  /@esbuild/netbsd-x64@0.24.2:
+    resolution: {integrity: sha512-VefFaQUc4FMmJuAxmIHgUmfNiLXY438XrL4GDNV1Y1H/RW3qow68xTwjZKfj/+Plp9NANmzbH5R40Meudu8mmw==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
     optional: true
 
-  /@esbuild/openbsd-x64@0.19.12:
-    resolution: {integrity: sha512-RbrfTB9SWsr0kWmb9srfF+L933uMDdu9BIzdA7os2t0TXhCRjrQyCeOt6wVxr79CKD4c+p+YhCj31HBkYcXebw==}
-    engines: {node: '>=12'}
+  /@esbuild/openbsd-arm64@0.24.2:
+    resolution: {integrity: sha512-YQbi46SBct6iKnszhSvdluqDmxCJA+Pu280Av9WICNwQmMxV7nLRHZfjQzwbPs3jeWnuAhE9Jy0NrnJ12Oz+0A==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+    requiresBuild: true
+    optional: true
+
+  /@esbuild/openbsd-x64@0.24.2:
+    resolution: {integrity: sha512-+iDS6zpNM6EnJyWv0bMGLWSWeXGN/HTaF/LXHXHwejGsVi+ooqDfMCCTerNFxEkM3wYVcExkeGXNqshc9iMaOA==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
     optional: true
 
-  /@esbuild/sunos-x64@0.19.12:
-    resolution: {integrity: sha512-HKjJwRrW8uWtCQnQOz9qcU3mUZhTUQvi56Q8DPTLLB+DawoiQdjsYq+j+D3s9I8VFtDr+F9CjgXKKC4ss89IeA==}
-    engines: {node: '>=12'}
+  /@esbuild/sunos-x64@0.24.2:
+    resolution: {integrity: sha512-hTdsW27jcktEvpwNHJU4ZwWFGkz2zRJUz8pvddmXPtXDzVKTTINmlmga3ZzwcuMpUvLw7JkLy9QLKyGpD2Yxig==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
     optional: true
 
-  /@esbuild/win32-arm64@0.19.12:
-    resolution: {integrity: sha512-URgtR1dJnmGvX864pn1B2YUYNzjmXkuJOIqG2HdU62MVS4EHpU2946OZoTMnRUHklGtJdJZ33QfzdjGACXhn1A==}
-    engines: {node: '>=12'}
+  /@esbuild/win32-arm64@0.24.2:
+    resolution: {integrity: sha512-LihEQ2BBKVFLOC9ZItT9iFprsE9tqjDjnbulhHoFxYQtQfai7qfluVODIYxt1PgdoyQkz23+01rzwNwYfutxUQ==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     optional: true
 
-  /@esbuild/win32-ia32@0.19.12:
-    resolution: {integrity: sha512-+ZOE6pUkMOJfmxmBZElNOx72NKpIa/HFOMGzu8fqzQJ5kgf6aTGrcJaFsNiVMH4JKpMipyK+7k0n2UXN7a8YKQ==}
-    engines: {node: '>=12'}
+  /@esbuild/win32-ia32@0.24.2:
+    resolution: {integrity: sha512-q+iGUwfs8tncmFC9pcnD5IvRHAzmbwQ3GPS5/ceCyHdjXubwQWI12MKWSNSMYLJMq23/IUCvJMS76PDqXe1fxA==}
+    engines: {node: '>=18'}
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
     optional: true
 
-  /@esbuild/win32-x64@0.19.12:
-    resolution: {integrity: sha512-T1QyPSDCyMXaO3pzBkF96E8xMkiRYbUEZADd29SyPGabqxMViNoii+NcK7eWJAEoU6RZyEm5lVSIjTmcdoB9HA==}
-    engines: {node: '>=12'}
+  /@esbuild/win32-x64@0.24.2:
+    resolution: {integrity: sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -4988,6 +5093,7 @@ packages:
 
   /@iarna/toml@2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: true
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -5767,12 +5873,14 @@ packages:
       '@oozcitak/infra': 1.0.8
       '@oozcitak/url': 1.0.4
       '@oozcitak/util': 8.3.8
+    dev: true
 
   /@oozcitak/infra@1.0.8:
     resolution: {integrity: sha512-JRAUc9VR6IGHOL7OGF+yrvs0LO8SlqGnPAMqyzOuFZPSZSXI7Xf2O9+awQPSMXgIWGtgUf/dA6Hs6X6ySEaWTg==}
     engines: {node: '>=6.0'}
     dependencies:
       '@oozcitak/util': 8.3.8
+    dev: true
 
   /@oozcitak/url@1.0.4:
     resolution: {integrity: sha512-kDcD8y+y3FCSOvnBI6HJgl00viO/nGbQoCINmQ0h98OhnGITrWR3bOGfwYCthgcrV8AnTJz8MzslTQbC3SOAmw==}
@@ -5780,10 +5888,12 @@ packages:
     dependencies:
       '@oozcitak/infra': 1.0.8
       '@oozcitak/util': 8.3.8
+    dev: true
 
   /@oozcitak/util@8.3.8:
     resolution: {integrity: sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==}
     engines: {node: '>=8.0'}
+    dev: true
 
   /@parcel/watcher@2.0.4:
     resolution: {integrity: sha512-cTDi+FUDBIUOBKEtj+nhiJ71AZVlkAsQFuGQTun5tV9mwQBQgZvhCzG+URPQc8myeN32yRVZEfVAPCs1RW+Jvg==}
@@ -9397,6 +9507,7 @@ packages:
 
   /array-timsort@1.0.3:
     resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
+    dev: true
 
   /array-union@2.1.0:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
@@ -9565,16 +9676,17 @@ packages:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  /aws-cdk-lib@2.133.0(constructs@10.3.0):
-    resolution: {integrity: sha512-5/ezv8Ir2xyz3myeXQcODwrjVRN/cDD2OpBwU/ySFBe+uNac25OoHfTXwUPwE7oLj9qetSt6/i1QvY2iIs6yiQ==}
+  /aws-cdk-lib@2.173.2(constructs@10.4.2):
+    resolution: {integrity: sha512-cL9+z8Pl3VZGoO7BwdsrFAOeud/vSl3at7OvmhihbNprMN15XuFUx/rViAU5OI1m92NbV4NBzYSLbSeCwYLNyw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.202
-      '@aws-cdk/asset-kubectl-v20': 2.1.2
-      '@aws-cdk/asset-node-proxy-agent-v6': 2.0.1
-      constructs: 10.3.0
+      '@aws-cdk/asset-awscli-v1': 2.2.216
+      '@aws-cdk/asset-kubectl-v20': 2.1.3
+      '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
+      '@aws-cdk/cloud-assembly-schema': 38.0.1
+      constructs: 10.4.2
     bundledDependencies:
       - '@balena/dockerignore'
       - case
@@ -9588,8 +9700,8 @@ packages:
       - yaml
       - mime-types
 
-  /aws-cdk@2.133.0:
-    resolution: {integrity: sha512-EwH8VgQQ8ODeMwjE3p+WhbcbWNkCbvuJJl+Py9IB5znGf7GwLcEmOu4YWBsBGPVu41SXbSAf36twMBrJytCFZA==}
+  /aws-cdk@2.173.2:
+    resolution: {integrity: sha512-qyMU4FoRJdZDUpsOBqyRBALBjf5A2N/MaHKX9iJUkbTET+d+nR07x3ai4TcEES+8pqPFHMTKpQMRDXs9Py/15w==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -10246,6 +10358,7 @@ packages:
   /case@1.6.3:
     resolution: {integrity: sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==}
     engines: {node: '>= 0.8.0'}
+    dev: true
 
   /ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -10253,16 +10366,15 @@ packages:
 
   /cdk-iam-actions@1.0.0:
     resolution: {integrity: sha512-iPp372Z/qV4XlBkDO1FsepSItw+JiOnoCFBMeNKRlGdyDoh0QyrmhiTlDOPkKPkwh1aQdqpN9V/a1Yd02tvNSA==}
-    dev: false
 
-  /cdk-nag@2.28.54(aws-cdk-lib@2.133.0)(constructs@10.3.0):
+  /cdk-nag@2.28.54(aws-cdk-lib@2.173.2)(constructs@10.4.2):
     resolution: {integrity: sha512-T4JJ0XMhAzeX35XOJDWB0imb+WdQC9y/IBco7MY24oa3FtyvIsBn2DiKGB91vympeE8VpMPO5P2en99UlAXIdA==}
     peerDependencies:
       aws-cdk-lib: ^2.116.0
       constructs: ^10.0.5
     dependencies:
-      aws-cdk-lib: 2.133.0(constructs@10.3.0)
-      constructs: 10.3.0
+      aws-cdk-lib: 2.173.2(constructs@10.4.2)
+      constructs: 10.4.2
 
   /chalk@0.5.1:
     resolution: {integrity: sha512-bIKA54hP8iZhyDT81TOsJiQvR1gW+ZYSXFaZUAvoD4wCHdbHY2actmpTE4x344ZlFqHbvoxKOaESULTZN2gstg==}
@@ -10612,6 +10724,7 @@ packages:
       esprima: 4.0.1
       has-own-prop: 2.0.0
       repeat-string: 1.6.1
+    dev: true
 
   /commitizen@4.3.0(@types/node@18.19.21)(typescript@5.4.2):
     resolution: {integrity: sha512-H0iNtClNEhT0fotHvGV3E9tDejDeS04sN1veIebsKYGMuGscFaswRoYJKmT3eW85eIJAs0F28bG2+a/9wCOfPw==}
@@ -10744,6 +10857,10 @@ packages:
   /constructs@10.3.0:
     resolution: {integrity: sha512-vbK8i3rIb/xwZxSpTjz3SagHn1qq9BChLEfy5Hf6fB3/2eFbrwt2n9kHwQcS0CPTRBesreeAcsJfMq2229FnbQ==}
     engines: {node: '>= 16.14.0'}
+    dev: true
+
+  /constructs@10.4.2:
+    resolution: {integrity: sha512-wsNxBlAott2qg8Zv87q3eYZYgheb9lchtBfjHzzLHtXbttwSrHPs1NNQbBrmbb1YZvYg2+Vh0Dor76w4mFxJkA==}
 
   /content-disposition@0.5.4:
     resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
@@ -10766,6 +10883,7 @@ packages:
 
   /conventional-changelog-config-spec@2.1.0:
     resolution: {integrity: sha512-IpVePh16EbbB02V+UA+HQnnPIohgXvJRxHcS5+Uwk4AT5LjzCZJm5sp/yqs5C6KZJ1jMsV4paEV13BN1pvDuxQ==}
+    dev: true
 
   /conventional-changelog-conventionalcommits@7.0.2:
     resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
@@ -11963,35 +12081,37 @@ packages:
       is-date-object: 1.0.5
       is-symbol: 1.0.4
 
-  /esbuild@0.19.12:
-    resolution: {integrity: sha512-aARqgq8roFBj054KvQr5f1sFu0D65G+miZRCuJyJ0G13Zwx7vRar5Zhn2tkQNzIXcBrNVsv/8stehpj+GAjgbg==}
-    engines: {node: '>=12'}
+  /esbuild@0.24.2:
+    resolution: {integrity: sha512-+9egpBW8I3CD5XPe0n6BfT5fxLzxrlDzqydF3aviG+9ni1lDC/OvMHcxqEFV0+LANZG5R1bFMWfUrjVsdwxJvA==}
+    engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      '@esbuild/aix-ppc64': 0.19.12
-      '@esbuild/android-arm': 0.19.12
-      '@esbuild/android-arm64': 0.19.12
-      '@esbuild/android-x64': 0.19.12
-      '@esbuild/darwin-arm64': 0.19.12
-      '@esbuild/darwin-x64': 0.19.12
-      '@esbuild/freebsd-arm64': 0.19.12
-      '@esbuild/freebsd-x64': 0.19.12
-      '@esbuild/linux-arm': 0.19.12
-      '@esbuild/linux-arm64': 0.19.12
-      '@esbuild/linux-ia32': 0.19.12
-      '@esbuild/linux-loong64': 0.19.12
-      '@esbuild/linux-mips64el': 0.19.12
-      '@esbuild/linux-ppc64': 0.19.12
-      '@esbuild/linux-riscv64': 0.19.12
-      '@esbuild/linux-s390x': 0.19.12
-      '@esbuild/linux-x64': 0.19.12
-      '@esbuild/netbsd-x64': 0.19.12
-      '@esbuild/openbsd-x64': 0.19.12
-      '@esbuild/sunos-x64': 0.19.12
-      '@esbuild/win32-arm64': 0.19.12
-      '@esbuild/win32-ia32': 0.19.12
-      '@esbuild/win32-x64': 0.19.12
+      '@esbuild/aix-ppc64': 0.24.2
+      '@esbuild/android-arm': 0.24.2
+      '@esbuild/android-arm64': 0.24.2
+      '@esbuild/android-x64': 0.24.2
+      '@esbuild/darwin-arm64': 0.24.2
+      '@esbuild/darwin-x64': 0.24.2
+      '@esbuild/freebsd-arm64': 0.24.2
+      '@esbuild/freebsd-x64': 0.24.2
+      '@esbuild/linux-arm': 0.24.2
+      '@esbuild/linux-arm64': 0.24.2
+      '@esbuild/linux-ia32': 0.24.2
+      '@esbuild/linux-loong64': 0.24.2
+      '@esbuild/linux-mips64el': 0.24.2
+      '@esbuild/linux-ppc64': 0.24.2
+      '@esbuild/linux-riscv64': 0.24.2
+      '@esbuild/linux-s390x': 0.24.2
+      '@esbuild/linux-x64': 0.24.2
+      '@esbuild/netbsd-arm64': 0.24.2
+      '@esbuild/netbsd-x64': 0.24.2
+      '@esbuild/openbsd-arm64': 0.24.2
+      '@esbuild/openbsd-x64': 0.24.2
+      '@esbuild/sunos-x64': 0.24.2
+      '@esbuild/win32-arm64': 0.24.2
+      '@esbuild/win32-ia32': 0.24.2
+      '@esbuild/win32-x64': 0.24.2
 
   /escalade@3.1.2:
     resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
@@ -12705,6 +12825,7 @@ packages:
 
   /fast-json-patch@3.1.1:
     resolution: {integrity: sha512-vf6IHUX2SBcA+5/+4883dsIjpBTqmfBjmYiWK1savxQmFk4JfBMLa7ynTYOs1Rolp/T1betJxHiGD3g1Mn8lUQ==}
+    dev: true
 
   /fast-json-stable-stringify@2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
@@ -13307,6 +13428,7 @@ packages:
       inherits: 2.0.4
       minimatch: 5.1.6
       once: 1.4.0
+    dev: true
 
   /global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -13480,6 +13602,7 @@ packages:
   /has-own-prop@2.0.0:
     resolution: {integrity: sha512-Pq0h+hvsVm6dDEa8x82GnLSYHOzNDt7f0ddFa3FqcQlgzEiptPqL+XrOJNavjOzSYiYWIrgeVYYgGlLmnxwilQ==}
     engines: {node: '>=8'}
+    dev: true
 
   /has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
@@ -13917,6 +14040,7 @@ packages:
   /ini@2.0.0:
     resolution: {integrity: sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==}
     engines: {node: '>=10'}
+    dev: true
 
   /ini@4.1.1:
     resolution: {integrity: sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g==}
@@ -13966,6 +14090,7 @@ packages:
   /interpret@1.4.0:
     resolution: {integrity: sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==}
     engines: {node: '>= 0.10'}
+    dev: true
 
   /intersect@0.0.3:
     resolution: {integrity: sha512-Bp/mSG9dsq/eOMk2Q7DyjKxY62TTU2RvNvycjXHhi5TjrA72H+I3c5+1nAOAqtENcrQvCb5NDlsoPWJ4Bh01SA==}
@@ -18933,6 +19058,30 @@ packages:
       xmlbuilder2: 3.1.1
       yaml: 2.4.0
       yargs: 17.7.2
+    dev: true
+    bundledDependencies:
+      - '@iarna/toml'
+      - case
+      - chalk
+      - comment-json
+      - conventional-changelog-config-spec
+      - fast-json-patch
+      - glob
+      - ini
+      - semver
+      - shx
+      - xmlbuilder2
+      - yaml
+      - yargs
+
+  /projen@0.79.27(constructs@10.4.2):
+    resolution: {integrity: sha512-NPA0lcifqMO+YOK7IPQO4jLxHi2/1CkE0x3Pv9WnSjmvGNabLZ43J1260T8kwYyNQhoVdCFQo1ieAz221cBntA==}
+    engines: {node: '>= 16.0.0'}
+    hasBin: true
+    peerDependencies:
+      constructs: ^10.0.0
+    dependencies:
+      constructs: 10.4.2
     bundledDependencies:
       - '@iarna/toml'
       - case
@@ -19721,6 +19870,7 @@ packages:
     engines: {node: '>= 0.10'}
     dependencies:
       resolve: 1.22.8
+    dev: true
 
   /recursive-readdir@2.2.3:
     resolution: {integrity: sha512-8HrF5ZsXk5FAH9dgsx3BlUer73nIhuj+9OrQwEbLTPOBzGkL1lsFCR01am+v+0m2Cmbs1nP12hLDl5FA7EszKA==}
@@ -19881,6 +20031,7 @@ packages:
   /repeat-string@1.6.1:
     resolution: {integrity: sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==}
     engines: {node: '>=0.10'}
+    dev: true
 
   /require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -20408,6 +20559,7 @@ packages:
       glob: 7.2.3
       interpret: 1.4.0
       rechoir: 0.6.2
+    dev: true
 
   /shiki@0.14.7:
     resolution: {integrity: sha512-dNPAPrxSc87ua2sKJ3H5dQ/6ZaY8RNnaAqK+t0eG7p0Soi2ydiqbGOTaZCqaYvA/uZYfS1LJnemt3Q+mSfcPCg==}
@@ -20429,6 +20581,7 @@ packages:
     dependencies:
       minimist: 1.2.8
       shelljs: 0.8.5
+    dev: true
 
   /side-channel@1.0.6:
     resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
@@ -21089,6 +21242,7 @@ packages:
 
   /sudo-prompt@9.2.1:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: false
 
   /supercluster@8.0.1:
@@ -21527,7 +21681,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: false
 
-  /ts-jest@29.1.2(@babel/core@7.24.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2):
+  /ts-jest@29.1.2(@babel/core@7.24.0)(esbuild@0.24.2)(jest@29.7.0)(typescript@5.4.2):
     resolution: {integrity: sha512-br6GJoH/WUX4pu7FbZXuWGKGNDuU7b8Uj77g/Sp7puZV6EXzuByl6JrECvm0MzVzSTkSHWTihsXt+5XYER5b+g==}
     engines: {node: ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -21550,7 +21704,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.0
       bs-logger: 0.2.6
-      esbuild: 0.19.12
+      esbuild: 0.24.2
       fast-json-stable-stringify: 2.1.0
       jest: 29.7.0(@types/node@18.19.21)(ts-node@10.9.2)
       jest-util: 29.7.0
@@ -21781,6 +21935,12 @@ packages:
     resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
     hasBin: true
+
+  /typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
 
   /typewise-core@1.2.0:
     resolution: {integrity: sha512-2SCC/WLzj2SbUwzFOzqMCkz5amXLlxtJqDKTICqg30x+2DZxcfZN2MvQZmGfXWKNWaKK9pBPsvkcwv8bF/gxKg==}
@@ -22783,6 +22943,7 @@ packages:
       '@oozcitak/infra': 1.0.8
       '@oozcitak/util': 8.3.8
       js-yaml: 3.14.1
+    dev: true
 
   /xmlchars@2.2.0:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}

@@ -12,6 +12,7 @@ import {
   COMMON_CDK_DEPS,
   COMMON_TS_PROJECT_OPTIONS,
   configureProject,
+  CONSTRUCTS_VERSION,
 } from "../util/config";
 
 const OUTDIR_BASE = "packages";
@@ -29,9 +30,10 @@ export class InfraAppProjectContainer extends ProjectContainer {
       authorEmail: "",
       authorName: "",
       cdkVersion: CDK_VERSION,
+      constructsVersion: CONSTRUCTS_VERSION,
       deps: [
         ...COMMON_CDK_DEPS,
-        "@aws-cdk/aws-cognito-identitypool-alpha",
+        `@aws-cdk/aws-cognito-identitypool-alpha@${CDK_VERSION}-alpha.0`,
         "config",
         "find-up@^5.0.0",
         "lodash",

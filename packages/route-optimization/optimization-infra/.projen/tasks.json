@@ -119,13 +119,13 @@
       },
       "steps": [
         {
-          "exec": "pnpm dlx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/aws-lambda,@types/jest,@types/uuid,eslint-import-resolver-typescript,eslint-plugin-import,jest,ts-jest,typescript,@aws-sdk/client-sqs,@route-optimization-accelerator/infra-common,aws-cdk-lib,cdk-iam-actions,cdk-nag,constructs,dayjs,uuid"
+          "exec": "pnpm dlx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/aws-lambda,@types/jest,@types/uuid,eslint-import-resolver-typescript,eslint-plugin-import,jest,ts-jest,typescript,@aws-sdk/client-sqs,@route-optimization-accelerator/infra-common,aws-cdk-lib,cdk-iam-actions,cdk-nag,constructs,dayjs,esbuild,uuid"
         },
         {
           "exec": "pnpm i --no-frozen-lockfile"
         },
         {
-          "exec": "pnpm update @types/aws-lambda @types/jest @types/node @types/uuid @typescript-eslint/eslint-plugin @typescript-eslint/parser constructs eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit projen ts-jest typescript @aws-sdk/client-sqs @route-optimization-accelerator/infra-common aws-cdk-lib cdk-iam-actions cdk-nag dayjs uuid"
+          "exec": "pnpm update @types/aws-lambda @types/jest @types/node @types/uuid @typescript-eslint/eslint-plugin @typescript-eslint/parser constructs eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit projen ts-jest typescript @aws-sdk/client-sqs @route-optimization-accelerator/infra-common aws-cdk-lib cdk-iam-actions cdk-nag dayjs esbuild uuid"
         },
         {
           "exec": "npx projen"

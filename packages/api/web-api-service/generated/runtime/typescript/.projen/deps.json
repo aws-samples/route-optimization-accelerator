@@ -20,6 +20,29 @@
       "type": "build"
     },
     {
+      "name": "aws-cdk-lib",
+      "version": "2.173.2",
+      "type": "peer"
+    },
+    {
+      "name": "cdk-iam-actions",
+      "type": "peer"
+    },
+    {
+      "name": "cdk-nag",
+      "type": "peer"
+    },
+    {
+      "name": "constructs",
+      "version": "10.4.2",
+      "type": "peer"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.24.2",
+      "type": "peer"
+    },
+    {
       "name": "@aws-lambda-powertools/logger",
       "type": "runtime"
     },

@@ -104,13 +104,13 @@
       },
       "steps": [
         {
-          "exec": "pnpm dlx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=typescript,@aws-lambda-powertools/logger,@aws-lambda-powertools/metrics,@aws-lambda-powertools/tracer,@types/aws-lambda"
+          "exec": "pnpm dlx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=typescript,aws-cdk-lib,cdk-iam-actions,cdk-nag,constructs,esbuild,@aws-lambda-powertools/logger,@aws-lambda-powertools/metrics,@aws-lambda-powertools/tracer,@types/aws-lambda"
         },
         {
           "exec": "pnpm i --no-frozen-lockfile"
         },
         {
-          "exec": "pnpm update @types/node constructs projen typescript @aws-lambda-powertools/logger @aws-lambda-powertools/metrics @aws-lambda-powertools/tracer @types/aws-lambda"
+          "exec": "pnpm update @types/node constructs projen typescript aws-cdk-lib cdk-iam-actions cdk-nag esbuild @aws-lambda-powertools/logger @aws-lambda-powertools/metrics @aws-lambda-powertools/tracer @types/aws-lambda"
         },
         {
           "exec": "npx projen"

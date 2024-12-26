@@ -8,6 +8,7 @@ import {
   CDK_VERSION,
   COMMON_TS_PROJECT_OPTIONS,
   configureProject,
+  CONSTRUCTS_VERSION,
   ESLINT_HEADER_RULE,
   PACKAGE_MANAGER,
   PDK_VERSION,
@@ -32,7 +33,7 @@ export class MonorepoProject extends monorepo.MonorepoTsProject {
       },
       deps: [
         `aws-cdk-lib@${CDK_VERSION}`,
-        "constructs",
+        `constructs@${CONSTRUCTS_VERSION}`,
         "projen",
         "find-up@^5.0.0",
         "eslint-plugin-header",
@@ -43,7 +44,7 @@ export class MonorepoProject extends monorepo.MonorepoTsProject {
         // project utils
         "@commitlint/cli",
         "@commitlint/config-conventional",
-        "@types/node@^16.18.25",
+        `@types/node@^${COMMON_TS_PROJECT_OPTIONS.minNodeVersion}`,
         "cz-conventional-changelog",
         "eslint-plugin-header",
         "husky",

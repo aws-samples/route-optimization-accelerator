@@ -21,7 +21,6 @@ use aws.proto.routeoptimizationaccelerator.types#BadRequestError
 use aws.proto.routeoptimizationaccelerator.types#NotAuthorizedError
 use aws.proto.routeoptimizationaccelerator.types#InternalFailureError
 
-
 @restJson1
 service WebApiService {
     version: "1.0"

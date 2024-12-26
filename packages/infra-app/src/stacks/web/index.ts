@@ -8,7 +8,7 @@ import { Stack } from "aws-cdk-lib";
 import * as cognito from "aws-cdk-lib/aws-cognito";
 import * as s3 from "aws-cdk-lib/aws-s3";
 import { Construct } from "constructs";
-import { sync as findUpSync } from "find-up";
+import * as findUp from "find-up";
 import { WEB } from "../../utils/default-settings";
 
 export interface WebAppProps {
@@ -33,7 +33,7 @@ export class WebApp extends Construct {
     super(scope, id);
 
     const packagesDir =
-      findUpSync("packages", { cwd: __dirname, type: "directory" }) ||
+      findUp.sync("packages", { cwd: __dirname, type: "directory" }) ||
       "../../../../../";
 
     const {

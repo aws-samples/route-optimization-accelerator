@@ -31,8 +31,6 @@ export class InfraCommonProjectContainer extends ProjectContainer {
       ...COMMON_TS_PROJECT_OPTIONS,
       deps: [
         ...COMMON_CDK_DEPS,
-        "esbuild",
-
         ...Object.values(props.deps).map((d) => d.package.packageName),
       ],
       devDeps: [],

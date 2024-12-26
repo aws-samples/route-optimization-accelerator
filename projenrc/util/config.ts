@@ -42,14 +42,16 @@ export const COMMON_JAVA_PROJECT_OPTIONS = {
   packaging: "jar",
 } satisfies Partial<JavaProjectOptions>;
 
-export const CDK_VERSION = "2.133.0";
+export const CDK_VERSION = "2.173.2";
+export const CONSTRUCTS_VERSION = "10.4.2";
 export const PDK_VERSION = "0.23.10";
 
 export const COMMON_CDK_DEPS = [
   `aws-cdk-lib@${CDK_VERSION}`,
-  "constructs",
+  `constructs@${CONSTRUCTS_VERSION}`,
   "cdk-iam-actions",
   "cdk-nag",
+  "esbuild@0.24.2",
 ];
 
 export const ESLINT_HEADER_RULE = {
