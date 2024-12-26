@@ -106,22 +106,22 @@
     },
     {
       "name": "ai.timefold.solver/timefold-solver-core",
-      "version": "1.9.0",
+      "version": "1.17.0",
       "type": "runtime"
     },
     {
       "name": "ai.timefold.solver/timefold-solver-jackson",
-      "version": "1.9.0",
+      "version": "1.17.0",
       "type": "runtime"
     },
     {
       "name": "com.fasterxml.jackson.core/jackson-databind",
-      "version": "2.15.2",
+      "version": "2.18.2",
       "type": "runtime"
     },
     {
       "name": "com.fasterxml.jackson.datatype/jackson-datatype-jsr310",
-      "version": "2.16.1",
+      "version": "2.18.2",
       "type": "runtime"
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "name": "org.apache.commons/commons-lang3",
-      "version": "3.13.0",
+      "version": "3.17.0",
       "type": "runtime"
     },
     {
@@ -141,57 +141,57 @@
     },
     {
       "name": "org.apache.logging.log4j/log4j-api",
-      "version": "2.22.1",
+      "version": "2.24.3",
       "type": "runtime"
     },
     {
       "name": "org.apache.logging.log4j/log4j-core",
-      "version": "2.22.1",
+      "version": "2.24.3",
       "type": "runtime"
     },
     {
       "name": "org.apache.logging.log4j/log4j-slf4j2-impl",
-      "version": "2.22.1",
+      "version": "2.24.3",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/aws-json-protocol",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/eventbridge",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/location",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/protocol-core",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/secretsmanager",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/sqs",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/ssm",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
       "name": "software.amazon.awssdk/utils",
-      "version": "2.23.12",
+      "version": "2.29.40",
       "type": "runtime"
     },
     {
