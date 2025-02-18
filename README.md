@@ -35,7 +35,7 @@ This project uses a series of tools
 - Java
   - [Corretto 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
   - [Maven](https://maven.apache.org/)
-- [NodeJS](https://nodejs.org/en) - >=18 with [pnpm](https://pnpm.io/)
+- [NodeJS](https://nodejs.org/en) - >=18 with [pnpm](https://pnpm.io/) ([version 8.x](https://pnpm.io/8.x/installation))
 - [Docker](https://www.docker.com/)
 
 ## Getting started
