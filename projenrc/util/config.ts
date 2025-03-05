@@ -51,7 +51,7 @@ export const COMMON_CDK_DEPS = [
   `constructs@${CONSTRUCTS_VERSION}`,
   "cdk-iam-actions",
   "cdk-nag",
-  "esbuild@0.24.2",
+  "esbuild@0.25.0",
 ];
 
 export const ESLINT_HEADER_RULE = {
