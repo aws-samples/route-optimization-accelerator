@@ -63,6 +63,7 @@ export class ApplicationIdentity extends Construct {
       },
       enableSmsRole: false,
       advancedSecurityMode: cognito.AdvancedSecurityMode.ENFORCED,
+      featurePlan: cognito.FeaturePlan.PLUS,
     });
 
     this.userPoolClient = this.userPool.addClient("web-app");

@@ -42,7 +42,7 @@ export const COMMON_JAVA_PROJECT_OPTIONS = {
   packaging: "jar",
 } satisfies Partial<JavaProjectOptions>;
 
-export const CDK_VERSION = "2.173.2";
+export const CDK_VERSION = "2.181.0";
 export const CONSTRUCTS_VERSION = "10.4.2";
 export const PDK_VERSION = "0.23.10";
 
