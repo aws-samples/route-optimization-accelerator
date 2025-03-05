@@ -136,12 +136,12 @@
         <dependency>
             <groupId>ai.timefold.solver</groupId>
             <artifactId>timefold-solver-core</artifactId>
-            <version>1.17.0</version>
+            <version>1.19.0</version>
         </dependency>
         <dependency>
             <groupId>ai.timefold.solver</groupId>
             <artifactId>timefold-solver-jackson</artifactId>
-            <version>1.17.0</version>
+            <version>1.19.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
