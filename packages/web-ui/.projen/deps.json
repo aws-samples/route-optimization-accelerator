@@ -127,7 +127,7 @@
     },
     {
       "name": "@aws/amazon-location-utilities-auth-helper",
-      "version": ">=1.0.5",
+      "version": "1.2.1",
       "type": "runtime"
     },
     {

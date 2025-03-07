@@ -32,7 +32,7 @@ export class WebUIProjectContatiner extends ProjectContainer {
         "@tanstack/react-query",
         "uuid",
         "maplibre-gl",
-        "@aws/amazon-location-utilities-auth-helper@>=1.0.5",
+        "@aws/amazon-location-utilities-auth-helper@1.2.1",
         "react-top-loading-bar",
 
         "@aws-sdk/types",

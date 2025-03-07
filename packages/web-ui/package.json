@@ -45,7 +45,7 @@
     "@aws-sdk/client-location": "3.525.0",
     "@aws-sdk/credential-provider-cognito-identity": "3.525.0",
     "@aws-sdk/types": "3.523.0",
-    "@aws/amazon-location-utilities-auth-helper": ">=1.0.5",
+    "@aws/amazon-location-utilities-auth-helper": "1.2.1",
     "@cloudscape-design/board-components": "3.0.51",
     "@cloudscape-design/code-view": "3.0.6",
     "@cloudscape-design/collection-hooks": "1.0.35",
