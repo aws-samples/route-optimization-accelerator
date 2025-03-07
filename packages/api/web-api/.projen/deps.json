@@ -193,6 +193,7 @@
     },
     {
       "name": "jwk-to-pem",
+      "version": "2.0.7",
       "type": "runtime"
     },
     {

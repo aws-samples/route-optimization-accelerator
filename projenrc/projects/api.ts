@@ -109,7 +109,7 @@ export class APIProjectContainer extends ProjectContainer {
         "@mapbox/polyline",
         `@aws/pdk@${PDK_VERSION}`,
         "dayjs",
-        "jwk-to-pem",
+        "jwk-to-pem@2.0.7",
         "jsonwebtoken",
         "uuid",
 

@@ -192,8 +192,8 @@ importers:
         specifier: 9.0.2
         version: 9.0.2
       jwk-to-pem:
-        specifier: 2.0.5
-        version: 2.0.5
+        specifier: 2.0.7
+        version: 2.0.7
       uuid:
         specifier: 9.0.1
         version: 9.0.1
@@ -11833,8 +11833,8 @@ packages:
   /electron-to-chromium@1.4.692:
     resolution: {integrity: sha512-d5rZRka9n2Y3MkWRN74IoAsxR0HK3yaAt7T50e3iT9VZmCCQDT3geXUO5ZRMhDToa1pkCeQXuNo+0g+NfDOVPA==}
 
-  /elliptic@6.5.4:
-    resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
+  /elliptic@6.6.1:
+    resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
     dependencies:
       bn.js: 4.12.0
       brorand: 1.1.0
@@ -15752,11 +15752,11 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /jwk-to-pem@2.0.5:
-    resolution: {integrity: sha512-L90jwellhO8jRKYwbssU9ifaMVqajzj3fpRjDKcsDzrslU9syRbFqfkXtT4B89HYAap+xsxNcxgBSB09ig+a7A==}
+  /jwk-to-pem@2.0.7:
+    resolution: {integrity: sha512-cSVphrmWr6reVchuKQZdfSs4U9c5Y4hwZggPoz6cbVnTpAVgGRpEuQng86IyqLeGZlhTh+c4MAreB6KbdQDKHQ==}
     dependencies:
       asn1.js: 5.4.1
-      elliptic: 6.5.4
+      elliptic: 6.6.1
       safe-buffer: 5.2.1
     dev: false
 
