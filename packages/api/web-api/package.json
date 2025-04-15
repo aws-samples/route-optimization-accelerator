@@ -55,7 +55,7 @@
     "@route-optimization-accelerator/web-api-service-typescript-infra": "^0.0.0",
     "@route-optimization-accelerator/web-api-service-typescript-runtime": "^0.0.0",
     "@turf/turf": "6.5.0",
-    "aws-cdk-lib": "2.181.0",
+    "aws-cdk-lib": "2.189.1",
     "cdk-iam-actions": "1.0.0",
     "cdk-nag": "2.28.54",
     "constructs": "10.4.2",
